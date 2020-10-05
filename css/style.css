@@ -19,6 +19,10 @@ nav {
     padding-top:50px;
 }
 
+a{
+    color: black;
+}
+
 .inline-block{
     display: inline-block;
     padding: 15px;
@@ -36,6 +40,7 @@ nav {
     font-weight: 600;
     float: left;
     padding: 15px;
+    width: 150px;
 }
 
 /* Style the navigation menu */
@@ -75,10 +80,15 @@ nav {
   }
   
   /* Add a grey background color on mouse-over */
-.topnav a:hover {
-    background-color: #333;
+#logo:hover {
+    background-color: white;
     color: #FFB800;
   }
+
+#myLinks a:hover{
+    background-color: #333;
+    color: #FFB800;
+}
   
   /* Style the active link (or home/logo) */
 /* .active {
@@ -124,13 +134,14 @@ nav {
     padding-right: 40px;
 }
 
-.button{
+.buttonContain{
     display: inline-block;
     padding: 5px;
     margin: 5px;
     width: 100px;
     text-align: center;
     color:black;
+    margin:10px;
 }
 
 /* Selected Works */
@@ -224,10 +235,6 @@ h4{
 
 
 
-
-
-
-
 @media only screen and (max-width:1000px) {
 nav{
     padding: 0px;
@@ -276,6 +283,14 @@ div.topnav{
     "Photo3"
     "Project3"
     ;
+}
+
+#hamburger{
+    top: 14px;
+}
+
+#hamburger:hover{
+    color: #FFB800;
 }
 
 }
@@ -417,6 +432,7 @@ div.topnav{
 #copyright{
     font-size: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 footer{
